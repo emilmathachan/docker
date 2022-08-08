@@ -1,0 +1,5 @@
+#getting base image
+FROM ubuntu 
+Maintainer Emil
+RUN apt-get update
+CMD ["echo", "Helloo World...! from first docker image"]
